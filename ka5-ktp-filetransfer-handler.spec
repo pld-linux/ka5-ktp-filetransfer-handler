@@ -34,6 +34,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 KDE Telepathy filetransfer handler.
 
+%description -l pl.UTF-8
+Program obsługi do przesyłania plików dla KDE Telepathy.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
